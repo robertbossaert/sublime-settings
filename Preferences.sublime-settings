@@ -1,4 +1,5 @@
 {
+	"auto_complete_delay": 50,
 	"binary_file_patterns":
 	[
 		"*.jpg",
@@ -17,17 +18,42 @@
 		"*.scssc"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
+	"color_scheme": "Packages/Theme - itg.flat/itg.dark.tmTheme",
+	"detect_slow_plugins": false,
+	"expand_sidebar_on_startup": false,
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		"Thumbs.db",
+		"*.svg",
+		"*.css.map"
+	],
+	"folder_exclude_patterns":
+	[
+		".sass-cache",
+		".svn",
+		".git",
+		"node_modules",
+		"aspnet_client"
+	],
 	"fade_fold_buttons": false,
-	"flatland_sidebar_tree_large": true,
-	"flatland_square_tabs": false,
 	"font_size": 10,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Sass",
-		"Vintage"
+		"Vintage",
+		"SublimeCodeIntel",
+		"SublimeLinter"
 	],
+	"scroll_past_end": true,
+	"show_panel_on_build": false,
+	"tab_completion": true,
+	"tabs_medium": true,
+	"theme": "itg.flat.dark.green.sublime-theme",
+	"itg_small_tabs": true,
+	"itg_scrollbar_small": true,
+	"itg_scrollbar_medium": true,
+	"use_simple_full_screen": true,
 	"word_wrap": true
 }
