@@ -21,8 +21,7 @@
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"theme": "Material-Theme-Darker.sublime-theme",
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"default_encoding": "UTF-8",
 	"expand_sidebar_on_startup": false,
 	"file_exclude_patterns":
@@ -40,8 +39,7 @@
 		"node_modules",
 		"aspnet_client"
 	],
-	//"font_face": "Fira Code",
-	"font_size": 12,
+	"font_size": 11,
 	"gutter": true,
 	"highlight_line": true,
 	"ignored_packages":
@@ -54,20 +52,21 @@
 		"draw_active"
 	],
 	"indent_subsequent_lines": true,
-	"line_numbers": false,
+	"line_numbers": true,
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
 	"margin": 4,
-	"material_theme_small_tab": true, 
+	"material_theme_bold_tab": true,
 	"material_theme_contrast_mode": true,
-	"material_theme_disable_tree_indicator": true,          // Disable sidebar file indicator
-	"material_theme_bold_tab": true,                                // Make the tab labels bolder
+	"material_theme_disable_tree_indicator": true,
+	"material_theme_small_tab": true,
 	"material_theme_tabs_autowidth": true,
 	"overlay_scroll_bars": "enabled",
 	"preview_on_click": false,
 	"smart_indent": true,
 	"tab_completion": true,
 	"tab_size": 3,
+	"theme": "Material-Theme.sublime-theme",
 	"trim_automatic_white_space": true,
 	"word_wrap": true,
 	"wrap_width": 0
